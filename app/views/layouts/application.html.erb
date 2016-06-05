@@ -24,11 +24,12 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
            <!--  nav here -->
+           <%= render 'layouts/navigation' %>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
+    <%= render 'layouts/messages' %>
     <!-- content -->
     <div class="container"  role="main">
       <%= yield %>
